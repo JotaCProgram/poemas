@@ -19,7 +19,7 @@ body {
 
 .page {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh; /* Alterado para min-height para garantir que todas as páginas tenham altura suficiente */
     display: flex;
     flex-direction: column;
     justify-content: center;
